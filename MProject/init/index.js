@@ -27,7 +27,7 @@ const initDB = async () => {
 initData.data = initData.data.map((obj) => {
     const newObj = {
         ...obj,
-        owner: "66530848abcf6f91a94fd5a2",
+        owner: "664b0937128934033c2f6569",
     };
     console.log('Modified Object:', newObj); // Log each modified object
     return newObj;
